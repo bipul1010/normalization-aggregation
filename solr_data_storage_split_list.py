@@ -15,7 +15,8 @@ def solrDataStorageSplittingList (docs,size_per_bundle,solr_address,filename):
 		solr.add (doc,"json")
 
 
-
+def print_hello():
+	print "hello"
 
 if __name__ == "__main__":
 
